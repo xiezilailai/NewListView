@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:weightSum="1"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/pull_icon_big"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <!--<ProgressBar-->
+        <!--android:layout_marginLeft="110dp"-->
+        <!--android:layout_marginRight="30dp"-->
+
+        <!--android:src="@drawable/pull_to_refresh_arrow"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/progressbar"-->
+        <!--style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_marginLeft="110dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!-- -->
+        <!--android:src="@drawable/pull_to_refresh_arrow"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageView" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="下拉刷新"-->
+        <!--android:id="@+id/textView" />-->
+</RelativeLayout>
