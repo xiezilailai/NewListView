@@ -200,9 +200,9 @@ public  class NewListView extends ListView {
 
                 }//如果不是从释放刷新离开的，直接变为普通状态
                 else{
-                    textView.setText("下拉刷新");
-
+//                    textView.setText("下拉刷新");
                     header.setPadding(getPaddingLeft(), -headerHeight, getPaddingRight(), getPaddingBottom());
+                    this.setSelectionAfterHeaderView();
                 }
                 flag=false;
 
